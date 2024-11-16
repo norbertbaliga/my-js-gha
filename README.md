@@ -24,7 +24,7 @@ steps:
 
   - name: Run my Action
     id: run-action
-    uses: norbertbaliga/my-js-action@v1 # Commit with the `v1` tag
+    uses: norbertbaliga/my-js-gha@v1 # Commit with the `v1` tag
     with:
       milliseconds: 3000
 
