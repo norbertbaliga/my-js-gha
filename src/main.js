@@ -1,4 +1,5 @@
 const core = require('@actions/core')
+const tc = require('@actions/tool-cache')
 const { setup } = require('./setup')
 
 /**

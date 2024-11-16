@@ -6,7 +6,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      
+
       # Make Sonatype CLI available to GitHub runners
       - name: Setup Sonatype CLI
         uses: norbertbaliga/my-js-gha@dev

@@ -25639,6 +25639,7 @@ module.exports = {
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 const core = __nccwpck_require__(7484)
+const tc = __nccwpck_require__(3247)
 const { setup } = __nccwpck_require__(3292)
 
 /**
