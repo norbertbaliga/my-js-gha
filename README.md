@@ -1,12 +1,13 @@
-# My JavaScript Action
+# My JavaScript GitHub Action
 
-[![GitHub Super-Linter](https://github.com/norbertbaliga/my-js-gha/workflows/linter.yml/badge.svg)](https://github.com/super-linter/super-linter)
-![CI](https://github.com/norbertbaliga/my-js-gha/workflows/ci.yml/badge.svg)
+[![GitHub Super-Linter](https://github.com/norbertbaliga/my-js-gha/actions/workflows/linter.yml/badge.svg)](https://github.com/super-linter/super-linter)
+![CI](https://github.com/norbertbaliga/my-js-gha/actions/workflows/ci.yml/badge.svg)
 
 ## Purpose
 
-Created this repository to host my JavaScript action. The repository was cloned 
-from https://github.com/actions/javascript-action/ and customized based on my learnings.
+Created this repository to host my JavaScript action. The repository was cloned
+from https://github.com/actions/javascript-action/ and customized based on my
+learnings.
 
 ## Usage
 
