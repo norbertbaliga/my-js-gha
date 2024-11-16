@@ -25,4 +25,4 @@ jobs:
         run: |
           ls -la
           java -version
-          java -jar nexus-iq-cli-1.179.0-01.jar -v
+          java -jar sonatype-iq-cli.jar -v
