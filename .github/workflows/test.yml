@@ -9,7 +9,7 @@ jobs:
       
       # Make Sonatype CLI available to GitHub runners
       - name: Setup Sonatype CLI
-        uses: norbertbaliga/my-js-gha@vdev
+        uses: norbertbaliga/my-js-gha@dev
         with:
           version: 1.179.0-01
 
