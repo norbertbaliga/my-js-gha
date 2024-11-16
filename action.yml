@@ -4,15 +4,15 @@ author: 'Norbert Baliga'
 
 # Define your inputs here.
 inputs:
-  milliseconds:
-    description: 'Your input description here'
+  version:
+    description: 'Nexus IQ CLI version'
     required: true
-    default: '1000'
+    default: 'latest'
 
 # Define your outputs here.
 outputs:
-  time:
-    description: 'Your output description here'
+  iq-cli-version:
+    description: 'The version of Nexus IQ CLI that was installed'
 
 runs:
   using: node20

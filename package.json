@@ -4,13 +4,13 @@
   "version": "0.0.1",
   "author": "Norbert Baliga",
   "private": true,
-  "homepage": "https://github.com/norbertbaliga/my-js-gha/javascript-action#readme",
+  "homepage": "https://github.com/norbertbaliga/my-js-gha#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/norbertbaliga/my-js-gha/javascript-action.git"
+    "url": "git+https://github.com/norbertbaliga/my-js-gha.git"
   },
   "bugs": {
-    "url": "https://github.com/norbertbaliga/my-js-gha/javascript-action/issues"
+    "url": "https://github.com/norbertbaliga/my-js-gha/issues"
   },
   "keywords": [
     "GitHub",
@@ -64,7 +64,10 @@
     ]
   },
   "dependencies": {
-    "@actions/core": "^1.11.1"
+    "@actions/attest": "^1.5.0",
+    "@actions/cache": "^3.3.0",
+    "@actions/core": "^1.11.1",
+    "@actions/github": "^6.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.26.0",
