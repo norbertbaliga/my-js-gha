@@ -2,14 +2,12 @@ name: "My JavaScript GitHub Action"
 description: "Learning JavaScript Actions"
 author: "Norbert Baliga"
 
-# Define your inputs here.
 inputs:
   version:
     description: "Nexus IQ CLI version"
     required: true
     default: "latest"
 
-# Define your outputs here.
 outputs:
   iq-cli-version:
     description: "The version of Nexus IQ CLI that was installed"
