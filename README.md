@@ -6,7 +6,7 @@
 ## Purpose
 
 Created this repository to host my JavaScript action. The repository was cloned
-from [JavaScript Action template](https://github.com/actions/javascript-action/) 
+from [JavaScript Action template](https://github.com/actions/javascript-action/)
 and customized based on my learnings.
 
 ## Usage

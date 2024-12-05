@@ -1,18 +1,18 @@
-name: 'My JavaScript GitHub Action'
-description: 'Learning JavaScript Actions'
-author: 'Norbert Baliga'
+name: "My JavaScript GitHub Action"
+description: "Learning JavaScript Actions"
+author: "Norbert Baliga"
 
 # Define your inputs here.
 inputs:
   version:
-    description: 'Nexus IQ CLI version'
+    description: "Nexus IQ CLI version"
     required: true
-    default: 'latest'
+    default: "latest"
 
 # Define your outputs here.
 outputs:
   iq-cli-version:
-    description: 'The version of Nexus IQ CLI that was installed'
+    description: "The version of Nexus IQ CLI that was installed"
 
 runs:
   using: node20
