@@ -1,0 +1,28 @@
+name: Sonatype Workflow
+on: push
+jobs:
+  sonatype-cli:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # Make Sonatype CLI available to GitHub runners
+      - name: Setup Sonatype CLI
+        uses: norbertbaliga/my-js-gha@dev
+        with:
+          version: 1.179.0-01
+
+      # Sonatype CLI requires Java to run
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: "temurin"
+          java-version: "17"
+
+      # Run Sonatype CLI
+      - name: Run Sonatype CLI
+        run: |
+          ls -la
+          java -version
+          java -jar sonatype-iq-cli.jar -v
